@@ -1,16 +1,9 @@
-# Ignore dataset
 Dataset/
-
-# Ignore Python cache
 _pycache_/
 *.pyc
-
-# Ignore model checkpoints / large model weights
 *.h5
 *.ckpt
 *.pt
 *.pkl
-
-# Ignore OS or editor files
 .DS_Store
 Thumbs.db
