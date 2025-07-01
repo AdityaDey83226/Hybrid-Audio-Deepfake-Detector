@@ -6,10 +6,10 @@ import random
 import soundfile as sf  # Import soundfile for saving WAV files
 
 # ✅ Paths (Updated as per your request)
-REAL_AUDIO_FOLDER = "C:/Users/91826/Desktop/training/real"
-FAKE_AUDIO_FOLDER = "C:/Users/91826/Desktop/training/fake"
-MIXED_AUDIO_FOLDER = "C:/Users/91826/Desktop/augmented_audios/NEW FOLDER___UPDATED"
-JSON_FILE_PATH = "C:/Users/91826/PycharmProjects/fakeaudiodetection/MIXED#####AUDIOFILES.json"
+REAL_AUDIO_FOLDER = "C:/Users/Desktop/training/real"
+FAKE_AUDIO_FOLDER = "C:/Users/Desktop/training/fake"
+MIXED_AUDIO_FOLDER = "C:/Users/Desktop/augmented_audios/NEW FOLDER___UPDATED"
+JSON_FILE_PATH = "C:/Users/PycharmProjects/fakeaudiodetection/MIXED#####AUDIOFILES.json"
 
 # ✅ Create output directory if it doesn't exist
 if not os.path.exists(MIXED_AUDIO_FOLDER):
