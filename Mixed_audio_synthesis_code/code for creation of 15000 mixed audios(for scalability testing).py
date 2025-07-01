@@ -6,10 +6,10 @@ import random
 import soundfile as sf
 
 # Paths
-REAL_AUDIO_FOLDER = "C:/Users/91826/Desktop/training/real"
-FAKE_AUDIO_FOLDER = "C:/Users/91826/Desktop/training/fake"
-ORIGINAL_MIXED_AUDIO_FOLDER = "C:/Users/91826/Desktop/augmented_audios/NEW FOLDER___UPDATED"
-NEW_MIXED_AUDIO_FOLDER = "C:/Users/91826/Desktop/augmented_audios/15000 files mixed"  # Replace with your specified path
+REAL_AUDIO_FOLDER = "C:/Users/Desktop/training/real"
+FAKE_AUDIO_FOLDER = "C:/Users/Desktop/training/fake"
+ORIGINAL_MIXED_AUDIO_FOLDER = "C:/Users/Desktop/augmented_audios/NEW FOLDER___UPDATED"
+NEW_MIXED_AUDIO_FOLDER = "C:/Users/Desktop/augmented_audios/15000 files mixed"  # Replace with your specified path
 NEW_JSON_FILE_PATH = os.path.join(NEW_MIXED_AUDIO_FOLDER, "NEW_MIXED_AUDIOFILES_15000.json")
 
 # Create output directory if it doesn't exist
