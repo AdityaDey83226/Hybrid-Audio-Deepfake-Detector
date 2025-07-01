@@ -10,9 +10,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Paths
-NEW_MIXED_AUDIO_FOLDER = "C:/Users/91826/Desktop/augmented_audios/15000 files mixed" # Replace with your specified path
+NEW_MIXED_AUDIO_FOLDER = "C:/Users/Desktop/augmented_audios/15000 files mixed" # Replace with your specified path
 NEW_JSON_PATH = os.path.join(NEW_MIXED_AUDIO_FOLDER, "NEW_MIXED_AUDIOFILES_15000.json")
-OUTPUT_DIR = "C:/Users/91826/PycharmProjects/fakeaudiodetection/processed_features"
+OUTPUT_DIR = "C:/Users/PycharmProjects/fakeaudiodetection/processed_features"
 
 # Create output directory if it doesn't   exist
 os.makedirs(OUTPUT_DIR, exist_ok=True)
