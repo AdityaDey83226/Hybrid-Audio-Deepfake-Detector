@@ -10,9 +10,9 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 logger = logging.getLogger(__name__)
 
 # Paths
-mixed_audio_folder = "C:/Users/91826/Desktop/augmented_audios/NEW FOLDER___UPDATED"
-json_path = "C:/Users/91826/PycharmProjects/fakeaudiodetection/MIXED#####AUDIOFILES.json"
-output_dir = "C:/Users/91826/PycharmProjects/fakeaudiodetection/processed_features"
+mixed_audio_folder = "C:/Users/Desktop/augmented_audios/NEW FOLDER___UPDATED"
+json_path = "C:/Users/PycharmProjects/fakeaudiodetection/MIXED#####AUDIOFILES.json"
+output_dir = "C:/Users/PycharmProjects/fakeaudiodetection/processed_features"
 
 # Create output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)
